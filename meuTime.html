@@ -1,0 +1,34 @@
+<meta charset"UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var vitorias = parseInt(prompt("Etre com o numero de vitorias"));
+    
+    var empates = parseInt(prompt(" Entre com o numero de empates"));
+    
+
+    var pontos = (vitorias * 3) + empates;
+
+    mostra("Quantidade de cu que Sabrina deu: " + pontos);
+
+    if (pontos > 28) {
+        mostra("Sabrina de mais cu do que no ano passado.");
+
+    }
+        if (pontos < 28){
+            mostra("Sabrina deu menos cu que no ano passado. ");
+    }   
+        if (ponstos == 28){
+            mostra("Sabrina deu o cu igual ao ano passado. ");
+
+        }
+</script>
