@@ -1,2 +1,2 @@
-# github-primeiro-repositorio
-Primeiros programas java/javascript
+# github-Meu-primeiro-repositorio
+Primeiros programas em java/javascript
